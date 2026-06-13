@@ -1,0 +1,9 @@
+{
+  "name": "Rotate Wallpaper",
+  "description": "Replace the desktop right-click \"Change Background\" entry with \"Rotate Background\" which rusn the wallpaper rotation script",
+  "uuid": "rotate-wallpaper@mathiasd.fr",
+  "shell-version": [
+    "48"
+  ],
+  "version": 1
+}
