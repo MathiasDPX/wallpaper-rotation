@@ -9,6 +9,7 @@ OUTPUT_WALLPAPER = "/home/mathias/Pictures/wallpaper.png"
 SCREEN_SIZE = (2560, 1440)
 RESAMPLING_FILTER = Image.Resampling.BICUBIC
 
+
 themes = glob(WALLPAPERS_DIR + "/*")
 theme = choice(themes)
 
