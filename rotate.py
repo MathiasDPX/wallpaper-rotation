@@ -11,9 +11,11 @@ RESAMPLING_FILTER = Image.Resampling.BICUBIC
 
 
 themes = glob(WALLPAPERS_DIR + "/*")
+themes = [theme for theme in themes if not os.path.basename(theme).startswith("_")]
 theme = choice(themes)
 
 wallpapers = glob(theme + "/*")
+wallpapers = [wallpaper for wallpaper in wallpapers if not os.path.basename(wallpaper).startswith("_")]
 
 choosenWallpapers = sample(wallpapers, 2)
 
